@@ -1,0 +1,21 @@
+{
+  "name": "your-project",
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "typescript": "^5.4.4",
+    "@langchain/community": "^0.0.44",
+    "@langchain/google-genai": "^0.0.2",
+    "langchain": "0.0.207",
+    "web-streams-polyfill": "^4.0.0"
+  },
+  "overrides": {
+    "@langchain/core": "0.1.5"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6"
+  }
+}
